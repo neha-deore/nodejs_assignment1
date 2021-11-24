@@ -1,0 +1,17 @@
+
+---> Assignment 
+  --> with the help of http module we create a server 
+    --> we define the port 6677 
+    --> when path is default (/) we load employee details page (get the data from empdetails.txt file )
+        eg:
+           Employee Details 
+                 Add Employee 
+        S.no  Ename  Age   City Salary 
+    --> when we click on add employee url is /addemployee 
+       Add Employee 
+       Ename 
+       Age 
+       City 
+       Salary 
+           Submit 
+           -> When we click on submit button , store all data in a empdetails.txt file and redirect to default page 
